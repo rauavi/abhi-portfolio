@@ -9,22 +9,23 @@
     <style>
         * {
             margin: 0;
-            color: rgb(65, 236, 65);
-            font-family: 'Courier New', Courier, monospace;
-            background-color: black;
+            color: rgb(51, 255, 51);
+            font-family: 'Courier New', Courier, monospace;           
         }
 
         header {
             display: flex;
             justify-content: space-evenly;
-
             background-color: black;
             border-bottom: 3px solid;
+            position: sticky;
+            top: 0px;
+            z-index: 3;
         }
 
         a {
             text-decoration: none;
-            font-size: 20px;
+            font-size: 18px;
             padding: 17px;
         }
 
@@ -42,28 +43,32 @@
         #int {
             position: absolute;
             left: 50%;
-            top: 90px;
-            font-size: 25px;
+            top: 125px;
+            font-size: 30px;
+            font-weight:400;
         }
 
         #abhi {
             height: 250px;
             float: left;
             padding-left: 8%;
-            padding-top: 25px;
+            padding-top: 125px;
         }
 
         #home {
             position: relative;
             padding: 15px;
             border-bottom: 3px solid;
-            height: 330px;
+            height: 90vh;
+            background-image: url(bg.gif);
+            background-attachment: fixed;
         }
 
         #skills {
             text-align: center;
             border-bottom: 3px solid;
             padding-bottom: 15px;
+            background-color: black;
         }
 
         #grid {
@@ -74,13 +79,16 @@
         #contact {
             border-bottom: 3px solid;
             text-align: center;
-            padding-bottom: 15px;
+            padding-bottom: 20px;
+            background-color: black;
         }
 
         #res {
             border-bottom: 3px solid;
             padding: 15px;
             text-align: center;
+            background-color: black;
+            padding-bottom: 25px;
         }
 
         .btn {
